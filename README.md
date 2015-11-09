@@ -12,9 +12,8 @@ To get started, check out the repository, inspect the code,
 2. put anlytical js on the back and asyn the front one
 3. skip the print css by putting media="print"
 4. reduce the jpg file to thumbnail
-
-
-1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
+5. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
+6. result 52ms
 
 Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
