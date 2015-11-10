@@ -7,20 +7,27 @@ To get started, check out the repository, inspect the code,
 ### Getting started
 
 ####Part 1: Optimize PageSpeed Insights score for index.html
+---here are what been done in this optimize steps
 
 1. compressed js and css to reduce the size
 2. put anlytical js on the back and asyn the front one
 3. skip the print css by putting media="print"
 4. reduce the jpg file to thumbnail
 5. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
-6. result 52ms
+6. result 93/100
 
-Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
 ####Part 2: Optimize Frames per Second in pizza.html
-
+---here are what been done in this optimize steps
 1. test through all senarios and meet the stanadard of 60fps or lower
 2. same strategy use in index.html but modify the code in main.js
+3. in main.js, I move all var out of for loop to boost the performace for all the loops.
+4. initialize latest scroll position to 0 and switch to true
+5. create scroll callback function, bound to scroll window event listener, this tied up to eventlicener
+6. when scrolls, calls `requestAnimationFrame`, but does not initiate another
+7. change call back function to onScroll
+8. testit through fps meters on chrome (fps meter tool)
+9. all senarios meet condition below 60 fps
 
 ### Optimization Tips and Tricks
 * [Optimizing Performance](https://developers.google.com/web/fundamentals/performance/ "web performance")
