@@ -19,6 +19,8 @@ To get started, check out the repository, inspect the code,
 
 ####Part 2: Optimize Frames per Second in pizza.html
 ---here are what been done in this optimize steps
+
+
 1. test through all senarios and meet the stanadard of 60fps or lower
 2. same strategy use in index.html but modify the code in main.js
 3. in main.js, I move all var out of for loop to boost the performace for all the loops.
