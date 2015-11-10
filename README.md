@@ -6,6 +6,18 @@ To get started, check out the repository, inspect the code,
 
 ### Getting started
 
+####Part 0 :Usage of the code
+
+1. download the project files from github and unzip the package
+2. Download and install ngrok to make your local server accessible remotely.
+some command here
+$> cd /path/to/your-project-folder
+$> ngrok 8080
+3. for index.html go to Google speed page test https://developers.google.com/speed/pagespeed/insights/ then put your url in and verify the page speed 
+4. for pizza.html, open the "view" folder and locate pizza.html, then right click open with Chrom browser.
+5. open the dev tool in chrome. check the box of fps meter tool.
+6. there will be a dash open and you can observe the reading and fps.
+
 ####Part 1: Optimize PageSpeed Insights score for index.html
 ---here are what been done in this optimize steps
 
